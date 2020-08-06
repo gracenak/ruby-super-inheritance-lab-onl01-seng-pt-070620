@@ -3,11 +3,11 @@ class Student
   attr_accessor :hello, :raise_hand
   
   def hello
-    "Hey there! I'm so excited to learn stuff."
+    puts "Hey there! I'm so excited to learn stuff."
   end
   
   def raise_hand
-    "Pick me!"
+    puts "Pick me!"
   end
   
 end
